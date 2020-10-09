@@ -7,6 +7,7 @@ Download links for the data dumps are:
 - [All papers with abstracts](https://paperswithcode.com/media/about/papers-with-abstracts.json.gz)
 - [Links between papers and code](https://paperswithcode.com/media/about/links-between-papers-and-code.json.gz)
 - [Evaluation tables](https://paperswithcode.com/media/about/evaluation-tables.json.gz)
+- [Methods](https://paperswithcode.com/media/about/methods.json.gz)
 
 The last JSON is in the [sota-extractor](https://github.com/paperswithcode/sota-extractor) format and the code
 from there can be used to load in the JSON into a set of Python classes. 

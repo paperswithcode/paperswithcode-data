@@ -1,4 +1,4 @@
-# Papers with code datasets
+ Papers with code datasets
 
 You can download the full dataset behind [paperswithcode.com](https://paperswithcode.com) here:
 
@@ -9,6 +9,8 @@ Download links for the data dumps are:
 - [Evaluation tables](https://production-media.paperswithcode.com/about/evaluation-tables.json.gz)
 - [Methods](https://production-media.paperswithcode.com/about/methods.json.gz)
 - [Datasets](https://production-media.paperswithcode.com/about/datasets.json.gz)
+- [Russian Storytelling Dataset](https://github.com/MaratDV/storytelling-video-dataset): 700 full-body HD videos of native Russian speakers telling unscripted stories with gestures, speech, and emotion. Useful for multimodal, speech-to-text, and avatar modeling research.
+
 
 The last JSON is in the [sota-extractor](https://github.com/paperswithcode/sota-extractor) format and the code
 from there can be used to load in the JSON into a set of Python classes. 

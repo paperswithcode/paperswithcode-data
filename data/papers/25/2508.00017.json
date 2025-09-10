@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2508.00017",
+  "title":    "Generative Logic: A New Computer Architecture for Deterministic Reasoning and Knowledge Generation",
+  "abstract": "We present Generative Logic (GL), a deterministic architecture that begins from user-supplied axiomatic definitions -- written in a minimalist Mathematical Programming Language (MPL) -- and systematically explores their deductive neighborhood. Definitions are compiled into a distributed grid of simple Logic Blocks (LBs) that exchange messages; any time several expressions unify under an inference rule, a new fact is emitted with full provenance to its sources, yielding replayable, auditable proof graphs.\n\nA prototype software implementation instantiates the workflow on first-order Peano arithmetic. Starting only from the Peano axioms, GL enumerates candidate implications, applies normalization and type filters, and automatically reconstructs machine-checkable proofs of foundational arithmetic laws including associativity and commutativity of addition, associativity and commutativity of multiplication, and distributivity. Generated proofs export to navigable HTML so that every inference step can be inspected independently.\n\nWe outline a hardware-software co-design path toward massively parallel realizations and describe prospective integration with probabilistic models (e.g., Large Language Models (LLMs)) for autoformalization and conjecture seeding. The Python and MPL code to reproduce the Peano experiments, along with the full HTML proof graphs, are available in the project's GitHub repository and permanently archived on Zenodo. We invite community feedback and collaboration.",
+  "authors":  ["Nikolai Sergeev"],
+  "pdf_url":  "https://arxiv.org/pdf/2508.00017.pdf",
+  "code": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/Generative-Logic/GL"
+    },
+    {
+      "name": "Zenodo Archive",
+      "url": "https://doi.org/10.5281/zenodo.16408441"
+    }
+  ]
+}

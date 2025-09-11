@@ -1,0 +1,9 @@
+{
+  "title": "Derivative Estimation from Coarse, Irregular, Noisy Samples: An MLE-Spline Approach",
+  "authors": ["Konstantin E. Avrachenkov", "Leonid B. Freidovich"],
+  "abstract": "We address numerical differentiation under coarse, non-uniform sampling and Gaussian noise. A maximum-likelihood estimator with L2-norm constraint on a higher-order derivative is obtained, yielding spline-based solution. We introduce a non-standard parameterization of quadratic splines and develop recursive online algorithms. Two formulations -- quadratic and zero-order -- offer tradeoff between smoothness and computational speed. Simulations  demonstrate superior performance over high-gain observers and super-twisting differentiators under coarse sampling and high noise, benefiting systems where higher sampling rates are impractical.",
+  "arxiv_id": "2507.22176",
+  "pdf_url": "https://arxiv.org/pdf/2507.22176.pdf",
+  "code_url": "https://github.com/fleonid/MLEdiff",
+  "tasks": ["Numerical Differentiation"]
+}
